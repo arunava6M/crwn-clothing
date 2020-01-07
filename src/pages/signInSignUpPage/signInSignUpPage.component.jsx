@@ -3,7 +3,7 @@ import './signInSignUpPage.styles.scss';
 import SignIn from '../../components/signIn/signIn.component';
 import SignUp from '../../components/sign-up/sign-up.component';
 
-const signInSignUpPage = () => (
+const SignInSignUpPage = () => (
     <div className='signInSignUp'>
         
         <SignIn />
@@ -12,4 +12,4 @@ const signInSignUpPage = () => (
     </div>
 );
 
-export default signInSignUpPage;
+export default SignInSignUpPage;
