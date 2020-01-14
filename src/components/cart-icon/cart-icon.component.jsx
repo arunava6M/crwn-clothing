@@ -12,6 +12,7 @@ const CartIcon = ({toggelCartDropdown}) => (
     </div>
 )
 
+
 const mapDispatchToProps = (dispatch) => ({
     toggelCartDropdown: ()=> dispatch(toggelCartDropdown())
 });
